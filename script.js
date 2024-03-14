@@ -80,6 +80,7 @@ function updateCartModal(){
                     </button>
                 </div>
             </div>
+            <div class="border-t border-gray-300 my-4"></div>
         `
         total += item.price * item.quantity
 
@@ -171,10 +172,6 @@ checkoutBtm.addEventListener('click', function(){
     cart = [];
     updateCartModal();
 })
-
-
-
-
 
 
 // Verificar a hora e manipular o horario
